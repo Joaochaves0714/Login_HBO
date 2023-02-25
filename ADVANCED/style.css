@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.container{
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: 1fr;
+}
+
+div a{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 29px;
+   text-decoration: none;
+   color: #FFFFFF;
+   padding: 100%;
+   text-align: left;
+}
+   /* #iconslef{
+      width: 20%;      
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 29px;
+      line-height: 35px;
+      display: flex;
+      align-items: right;
+      text-align: right;
+
+      color: #FFFFFF;
+      
+      text-decoration: none;
+   }
+   #iconsrig{
+      width: 25%;      
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 29px;
+      line-height: 35px;
+      display: grid;
+   
+      text-align: left;
+      
+      text-decoration: none;
+   } */
+
+   #click{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 29px;
+      line-height: 35px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #FFFFFF;
+      
+      text-decoration: none;
+   }
+
+
+body{
+   background: #131111;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0px;
+   border: 0px;
+   margin: 0px;
+   background-image:url(IMG/fundo.png)
+}
+
+header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+   header img{
+      margin: 20px;
+   }
+
+.basicText{
+   text-decoration: none;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 35px;
+   display: flex;
+   padding: 5px;
+   border: 0px;
+   margin: 0px;
+   color: #FFFFFF;
+   text-align: center;
+}
+
+#ask{
+   margin: 30px;
+}
+
+#title{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 54px;
+   line-height: 65px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   padding: 5px;
+   border: 0px;
+   margin: 0px;
+   color: #FFFFFF;
+}
+
+.client{
+   background: rgba(127, 127, 127, 0.75);
+   border-radius: 25px;
+   width: 566px;
+   height: 53px;
+   left: 462px;
+   top: 419px;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+}
+   form label{
+      width: 566px;
+   }
+   
+   form input[type="submit"]{
+      background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
+   border: 1px solid #000000;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 25px;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      padding: 0px 30px 0 30px;
+      border: 70px;
+
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 33px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      
+      color: #FFFFFF;
+
+   }
+
